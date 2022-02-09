@@ -8,7 +8,7 @@ const menorSalario = (funcionario, funcionarioAtual) => {
 }
 axios.get(url).then(response => {
     const funcionarios = response.data
-    console.log(funcionarios)
+    //console.log(funcionarios)
 
     // Desafio mulher chinesa com menor salario
 
